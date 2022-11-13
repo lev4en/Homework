@@ -15,6 +15,11 @@ public class Homework {
         int z = in.nextInt();
         Zadanie_2(x, y, z);
 
+        System.out.println("Ввести целое число от 1 до 7");
+        int v = in.nextInt();
+        Zadanie_3(v);
+
+
     }
 
     static void Zadanie_1(int a){
@@ -35,7 +40,36 @@ public class Homework {
        else if(yy<xx & yy<zz){
            System.out.println(yy);}
            else if(zz<xx & zz<yy)
-           System.out.println(zz);}
+           System.out.println(zz);
+    }
+
+static void Zadanie_3(int v){
+    switch (v) {
+        case 1:
+            System.out.println("это понедельник-бездельник");
+            break;
+        case 2:
+            System.out.println("вторник-повторник");
+            break;
+        case 3:
+            System.out.println("это среда");
+            break;
+        case 4:
+            System.out.println("четверг-всю раблоту я отверг");
+            break;
+        case 5:
+            System.out.println("это пятница-пьяница");
+            break;
+        case 6:
+            System.out.println("суббота");
+            break;
+            case 7:
+            System.out.println("воскресенье");
+            break;
+        default:
+            System.out.println("я не знаю этот день");
+    }
+}
 
     }
 
