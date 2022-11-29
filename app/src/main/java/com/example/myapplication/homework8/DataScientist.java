@@ -1,5 +1,5 @@
 package com.example.myapplication.homework8;
 
 public class DataScientist {
-    Workplace workplace = new Workplace("LG","Logitech","Logitech","Samsung");
+    Workplace workplace = new Workplace("Macbook");
 }
