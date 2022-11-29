@@ -1,3 +1,5 @@
+package com.example.myapplication.homework8;
+
 public class Workplace {
         String systemUnit;
         String keyword;
